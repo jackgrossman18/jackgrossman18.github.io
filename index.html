@@ -1,1 +1,98 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
+<link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+<link rel="stylesheet" href="./fizz-css/font-mfizz.css">
+<link rel="stylesheet" href="./public/css/style.css" /> 
+<body>
+    <nav id="main">
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="./public/resume/_Jack Grossman Resume_.pdf" target="_blank">Resume</a></li>
+            <li class="logo">Jack Grossman</li>
+            <li><a href="https://www.linkedin.com/in/jackgrossman18" target="_blank"><i class="fab fa-linkedin-in istyle"></i></a></li>
+            <li><a href="https://github.com/jackgrossman18" target="_blank"><i class="fab fa-github istyle"></i></a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </nav>
+    <div class="lead-container">
+        
+        <div class="lead-item" id="lead-text">I'm a Web Developer based in Washington D.C.<br>Check out some of my project below</div>
+        <div class="lead-item"><div id='map'></div><script src="./public/map/map.js"></script></div>
+    </div>
+    <div id="project"></div>
+    <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0 accordion-font">
+                  <button id="acc-butn" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Current Conditions Web Application
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body" id="card-body">
+                    <div id="container"class="container">
+                    <div class="row">
+                        <a href="https://current-conditions-app.herokuapp.com" target="_blank"><img class="current" src="./public/images/laptop-screen.png"/></a>
+                            <div id="inner-acc"class="col-md-4">
+                                <h1 id="apptitle"><a class="app">Web App</a><br>Current Conditions</h1>
+                                <div id="icon-align">
+                                Languages: <i class="fab fa-js-square"></i> 
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i> | Stack: MERN
+                                <i class="icon-mongodb"></i>
+                                <i class="fab fa-react"></i>
+                                <i class="fab fa-node-js"></i>
+                                </div>
+                            </div> 
+                    </div>
+                </div>
+             </div>
+            </div>
+            <div class="card accordion-font">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0v accordion-font">
+                  <button id="acc-butn" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Everton FC Database 
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body" id="card-body">
+                    <div id="container"class="container">
+                        <div class="row">
+                            <a href="https://current-conditions-app.herokuapp.com" target="_blank"><img class="ev" src="./public/images/laptop-screen.png"/></a>
+                            <div id="inner-acc"class="col-md-4">
+                                    <h1 id="apptitle"><a class="app">Web App</a><br>Everton FC Database</h1>
+                                    <div id="icon-align">
+                                    Languages: <i class="fab fa-js-square"></i> 
+                                    <i class="fab fa-html5"></i>
+                                    <i class="fab fa-css3-alt"></i> | Stack: MERN
+                                    <i class="icon-mongodb"></i>
+                                    <i class="fab fa-react"></i>
+                                    <i class="fab fa-node-js"></i>
+                                    </div>
+                            </div> 
+                        </div>
+                    </div>
+                 </div>
+               </div>
+            </div>
+          </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+</body>
+</html>
