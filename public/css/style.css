@@ -138,7 +138,6 @@ a:hover {
     -webkit-background-clip: text;
     -webkit-animation: welcome 3s linear infinite;
     animation: welcome 3s linear linear infinite;
-
 }
 @-webkit-keyframes welcome {
     100% {
