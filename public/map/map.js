@@ -6,8 +6,8 @@ var map = new mapboxgl.Map({
   pitch: 0,
   control: "topleft",
   bearing: 0,
-  zoom: 12,
-  center: [-74.56, 39.32]
+  zoom: 11,
+  center: [-77.037, 38.895]
 });
 var nav = new mapboxgl.NavigationControl();
 var responsive = new mapboxgl.AttributionControl({
