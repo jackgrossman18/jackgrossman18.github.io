@@ -10,4 +10,9 @@ var map = new mapboxgl.Map({
   center: [-74.56, 39.32]
 });
 var nav = new mapboxgl.NavigationControl();
+var responsive = new mapboxgl.AttributionControl({
+  compact: true
+});
+
 map.addControl(nav, "top-left");
+map.addControl(responsive);
