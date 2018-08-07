@@ -199,6 +199,7 @@ a:hover {
     justify-content: center;
     justify-content: space-between;
     width: 100%;
+    font-size: 18px;
 }
 #card-body {
     max-width: auto;
@@ -337,7 +338,7 @@ a:hover {
 #apptitle {
     width: 100%;
     font-family: 'Heebo';
-    font-size: 1.5em;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
 }
