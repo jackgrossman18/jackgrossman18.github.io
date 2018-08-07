@@ -84,8 +84,13 @@ nav li {
     justify-content: center;
     align-items: center;
 }
+#footer {
+    font-size: 20px;
+}
 footer {
     background: #FBF8F4;
+    font-size: 20px;
+    font-weight: 1000;
     top: 0;
     width: 100%;
     transition: all 0.5s;
