@@ -175,6 +175,14 @@ a:hover {
 .card-header {
     background-color: #FBF8F4;
 }
+.card-header:hover{
+    color: #FBF8F4;
+    background-color: black;
+}
+#hover-text:hover {
+    color: #FBF8F4;
+    background-color: black;
+}
 #container {
     margin-left:none;
 }
@@ -319,9 +327,10 @@ a:hover {
     }
 }
 .app {
+    font-family: 'Heebo';
     font-size: 0.5em;
     text-shadow: 1px 1px 1px white, 2px 2px 3px #e83557;
-    /* #73f9d9 */
+
 }
 #apptitle {
     width: 100%;
@@ -397,10 +406,6 @@ a:hover {
 #acc-butn:hover{
     color: #FBF8F4;
 
-}
-.card-header:hover{
-    color: #FBF8F4;
-    background-color: black;
 }
 #acc-butn:active {
     text-decoration: none;
