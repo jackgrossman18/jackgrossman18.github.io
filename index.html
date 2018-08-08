@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
 <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
 <link rel="shortcut icon" style='width:5%;' type='image/x-icon' href="./favicon.ico"/>
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.js'></script>
@@ -9,6 +10,8 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 <link rel="stylesheet" href="./fizz-css/font-mfizz.css">
 <link rel="stylesheet" href="./public/css/style.css" /> 
+<title>Jack Grossman's Portfolio</title>
+</head>
 <body>
     <nav id="main">
         <ul>
@@ -17,10 +20,10 @@
             <li class="res-hide"><a href="#project">Projects</a></li>
             <li class="res-hide"><a href="./aboutme.html">About Me</a></li>
             <li class="res-hide"><a href="./public/resume/JackGrossman_Resume.pdf" target="_blank">Resume</a></li>
-            <li class="res-hide">Jack Grossman</li>
+            <li id="mylogo" class="res-hide">Jack Grossman</li>
             <li class="res-hide"><a href="https://www.linkedin.com/in/jackgrossman18" target="_blank"><i class="fab fa-linkedin-in istyle"></i></a></li>
             <li class="res-hide"><a href="https://github.com/jackgrossman18" target="_blank"><i class="fab fa-github istyle"></i></a></li>
-            <li class="res-hide"><a href="#contactme">Contact</a></li>
+            <li class="res-hide"><a href="mailto:jack.grossman91@gmail.com">Contact</a></li>
             <li class="hover">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-bars"></i>
@@ -69,7 +72,7 @@
                 <div class="card-body" id="card-body">
                     <div id="container"class="container">
                     <div class="row">
-                        <a href="https://current-conditions-app.herokuapp.com" target="_blank"><img class="current" src="./public/images/laptop-screen.png"/></a>
+                        <a href="https://currentconditions.surge.sh/" target="_blank"><img class="current" src="./public/images/laptop-screen.png"/></a>
                             <div id="inner-acc"class="col-md-4">
                                 <h1 id="apptitle"><a class="app">Web App</a><br>Current Conditions</h1>
                                 <div id="icon-align">
@@ -80,6 +83,9 @@
                                 <i class="fab fa-react"></i>
                                 <i class="fab fa-node-js"></i>
                                 </div>
+                                <div class="icon-align2" ><a href="https://github.com/jackgrossman18/Current_Conditions_Font_End/tree/master/current_conditions" target="_blank"> Source Code: <i class="fab fa-github istyle"></i></a></div>
+                                <div class="icon-align2">About: </div>
+                                <div class="icon-align">Using React.js and MongoDB, this app allows users to see all of the top surf forecasing website's daily surf ratings on a single webmap</div>
                             </div> 
                     </div>
                 </div>
@@ -97,7 +103,7 @@
                 <div class="card-body" id="card-body">
                     <div id="container"class="container">
                         <div class="row">
-                            <a href="http://tiny-look.surge.sh/" target="_blank"><img class="ev" src="./public/images/laptop-screen.png"/></a>
+                            <a href="https://evertondb.surge.sh/" target="_blank"><img class="ev" src="./public/images/laptop-screen.png"/></a>
                                 <div id="inner-acc"class="col-md-4">
                                     <h1 id="apptitle"><a class="app">Web App</a><br>Everton FC Database</h1>
                                         <div id="icon-align">
@@ -108,6 +114,9 @@
                                             <i class="fab fa-react"></i>
                                             <i class="fab fa-node-js"></i>
                                         </div>
+                                        <div class="icon-align3">Source Code: <a href="https://git.generalassemb.ly/jackgrossman18/Mern_Lab" target="_blank"> Front End </a>|<a href="https://github.com/jackgrossman18/MERN-App_BackEnd"> Back End</a></div>
+                                        <div class="icon-align2">About: </div>
+                                        <div class="icon-align">A web app built using the React.JS framework, to render player data on the frontend about my favorite soccer team</div>
                                 </div> 
                          </div>
                     </div>
@@ -127,7 +136,7 @@
                     <div class="card-body" id="card-body">
                         <div id="container"class="container">
                             <div class="row">
-                                <a><img class="dcfc" src="./public/images/laptop-screen.png"/></a>
+                                <a href="https://dcfc.herokuapp.com/"><img class="dcfc" src="./public/images/laptop-screen.png"/></a>
                                     <div id="inner-acc"class="col-md-4">
                                         <h1 id="apptitle"><a class="app">Web App</a><br>DCFC</h1>
                                             <div id="icon-align">
@@ -136,6 +145,10 @@
                                                 <i class="fab fa-css3-alt"></i> | Backend:
                                                 <i class="icon-postgres"></i>
                                             </div>
+                                            <div class="icon-align2" ><a href="https://git.generalassemb.ly/jackgrossman18/Project4" target="_blank"> Source Code: <i class="fab fa-github istyle"></i></a></div>
+                                            <div class="icon-align2">About: </div>
+                                            <div class="icon-align">Combining a Postgresql database and Python on the backend with Django on the frontend this app allows users to find public soccer field in Washington DC</div>
+
                                     </div> 
                             </div>
                         </div>

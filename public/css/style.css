@@ -24,6 +24,7 @@ div ul {
     padding: 0;
 }
 nav {
+    text-transform: uppercase;
     background: #FBF8F4;
     top: 0;
     width: 100%;
@@ -130,6 +131,9 @@ a:hover {
     color: black;
     text-decoration: none;
 }
+#mylogo {
+    padding: 0 2px 0 2px;
+}
 .logo {
     font-weight: 800;
 }
@@ -172,6 +176,13 @@ a:hover {
     font-size:18px;
     color: black;
 }
+.project-header {
+    background-color: #FBF8F4;
+    color: black;
+    border-top: 1px solid rgba(0,0,0,.125);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 10 0 19px 0;
+}
 .card-header {
     background-color: #FBF8F4;
 }
@@ -200,6 +211,25 @@ a:hover {
     justify-content: space-between;
     width: 100%;
     font-size: 18px;
+}
+.icon-align2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.125);
+    font-size: 18px;
+}
+.icon-align3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 18px;
+    border-top: 1px solid rgba(0,0,0,.125);
+
 }
 #card-body {
     max-width: auto;
@@ -287,10 +317,10 @@ a:hover {
     display: flex;
     float: left;
     height: 400px;
-    background-image: url('https://cdn0.iconfinder.com/data/icons/hand-conversation/91/Hand_17-512.png');
-    background-size: 50%;
+    background-image: url('https://user-images.githubusercontent.com/25868208/43862212-13965f68-9b27-11e8-9bbb-cbf58f77c7e0.png');
+    background-size: 85%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 30%;
     z-index: -3;
 }
 @media (max-width: 600px) {
@@ -303,10 +333,10 @@ a:hover {
     display: flex;
     float: left;
     height: 400px;
-    background-image: url('https://eurodonovan.files.wordpress.com/2014/12/everton-crest.png');
-    background-size: 40%;
+    background-image: url('https://media.git.generalassemb.ly/user/10830/files/afd61706-9b27-11e8-9ce6-f8b5ab7f5411');
+    background-size: 85%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 30%;
 }
 @media (max-width: 600px) {
     .ev {
@@ -318,10 +348,11 @@ a:hover {
     display: flex;
     float: left;
     height: 400px;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Flag_of_Washington%2C_D.C._icon.svg/500px-Flag_of_Washington%2C_D.C._icon.svg.png');
-    background-size: 40%;
+    background-image: url('https://media.git.generalassemb.ly/user/10830/files/c0a3af32-9b25-11e8-8ffb-e3c2adf09cdc');
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Flag_of_Washington%2C_D.C._icon.svg/500px-Flag_of_Washington%2C_D.C._icon.svg.png'); */
+    background-size: 85%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 50% 25%;
 }
 @media (max-width: 600px) {
     .dcfc {
