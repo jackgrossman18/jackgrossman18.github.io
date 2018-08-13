@@ -76,7 +76,7 @@ nav ul {
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 nav li {
     flex: 1;
@@ -186,13 +186,12 @@ a:hover {
 .card-header {
     background-color: #FBF8F4;
 }
-.card-header:hover{
-    color: #FBF8F4;
+
+#hover-text:hover  {
     background-color: black;
 }
-#hover-text:hover {
+#hover-text:hover * {
     color: #FBF8F4;
-    background-color: black;
 }
 #container {
     margin-left:none;
@@ -431,11 +430,11 @@ a:hover {
     }
 }
 #acc-butn {
-    color: black;
+    color:black;
     text-decoration: none;
     font-size: 20px;
 }
-.card-header:active{
+.btn:active{
     color: #FBF8F4;
 }
 #acc-butn:hover{
@@ -444,11 +443,12 @@ a:hover {
 }
 #acc-butn:active {
     text-decoration: none;
-    color:black;
+    color:#FBF8F4;
+
 }
 #acc-butn:visited {
     text-decoration: none;
-    color:black;
+    color: white;
 }
 .title {
     width: 25%;
